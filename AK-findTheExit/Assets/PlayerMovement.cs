@@ -5,6 +5,10 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5;
+    public Vector3 destination;
+    public float horizontal;
+    public float vertical;
+    public float whereWeGoing;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,13 +27,40 @@ public class PlayerMovement : MonoBehaviour
         // getAxisRaw - values are consatly being parsed
         // getAxis - values only parsed when key is pressed down
         //---------------------------------------------------------
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        horizontal = Input.GetAxisRaw("Horizontal");
+        vertical = Input.GetAxisRaw("Vertical");
+        Debug.Log(vertical);
+        switch(vertical){
+            case -1: whereWeGoing=1; break;
+            case 1: whereWeGoing=2; break;
+        }
+        switch(horizontal){
+            case -1: whereWeGoing=3; break;
+            case 1: whereWeGoing=4; break;
+        }
+        // if(vertical == -1){
+        //     //down
+        //     upOrDown = -1;
+        // } 
+        // if(vertical == 1){
+        //     //up
+        //     upOrDown = 1;
+        // }
         //creates a random arrow illustrating where the obj is going to 
         // move, based on the inputs of the horizontal keys(a,d or left/right arrow)
         // and based on verticle keys(w,s and up/down arrow)
         // y left as 0 because that would demostrate jumping/falling
-        Vector3 destination = new Vector3(horizontal, 0, vertical);
+
+        // --- PY Notes ---
+        //codey always wants to be moving forward. only need x-s for him to turn.
+       switch(whereWeGoing){
+        case 1: destination = new Vector3(0,0,-1);break;
+        case 2: destination = new Vector3(0,0,1);break;
+        case 3: destination = new Vector3(-1,0,0);break;
+        case 4: destination = new Vector3(1,0,0);break;
+       }
+        
+       
         //Debug.Log(destination);
 
 

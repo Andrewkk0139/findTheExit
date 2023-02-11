@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.14509803, g: 0.13903135, b: 0.3733311, a: 1}
+  m_IndirectSpecularColor: {r: 0.14512706, g: 0.13905391, b: 0.3733439, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -194,6 +194,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castleWall-middle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
 --- !u!4 &81725566 stripped
@@ -289,6 +293,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
       propertyPath: m_Name
       value: castleWall-short (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
@@ -396,6 +404,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
       propertyPath: m_Name
       value: castleWall-short (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
@@ -568,6 +580,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castleTurret (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 863bc32fd25b7a245aeed002aba5b844, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 863bc32fd25b7a245aeed002aba5b844, type: 3}
 --- !u!1 &253152672
@@ -581,7 +597,7 @@ GameObject:
   - component: {fileID: 253152673}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -817,6 +833,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castleTurret (6)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 863bc32fd25b7a245aeed002aba5b844, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 863bc32fd25b7a245aeed002aba5b844, type: 3}
 --- !u!1 &313238132
@@ -1008,6 +1028,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castleWall-short (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
 --- !u!4 &360783137 stripped
@@ -1085,6 +1109,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
       propertyPath: m_Name
       value: castleWall-short (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
@@ -1232,6 +1260,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
       propertyPath: m_Name
       value: castleWall-short (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
@@ -1388,6 +1420,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castleWall-short (16)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
 --- !u!1001 &615779294
@@ -1448,6 +1484,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
       propertyPath: m_Name
       value: castleWall-short
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
@@ -1536,6 +1576,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
       propertyPath: m_Name
       value: castleWall-middle (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
@@ -1705,6 +1749,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castleWall-short (11)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
 --- !u!4 &681720731 stripped
@@ -1779,6 +1827,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 863bc32fd25b7a245aeed002aba5b844, type: 3}
       propertyPath: m_Name
       value: castleTurret (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 863bc32fd25b7a245aeed002aba5b844, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 863bc32fd25b7a245aeed002aba5b844, type: 3}
@@ -2017,6 +2069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castleWall-middle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
 --- !u!4 &936566185 stripped
@@ -2105,6 +2161,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
       propertyPath: m_Name
       value: castleWall-middle (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
@@ -2225,6 +2285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castleWall-short (12)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
 --- !u!4 &1021695480 stripped
@@ -2303,6 +2367,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castleWall-short (18)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
 --- !u!1001 &1056011281
@@ -2368,8 +2436,24 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1644898631869366209, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644898631869366211, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644898631869366213, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1644898631869366215, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644898631869366215, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
+      propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1644898631869366217, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
@@ -2380,8 +2464,28 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1644898631869366221, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644898631869366223, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644898631869366225, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644898631869366229, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1644898631869366231, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644898631869366231, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
+      propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1644898631887668023, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
@@ -2546,6 +2650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castleWall-short (17)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
 --- !u!4 &1089133012 stripped
@@ -2620,6 +2728,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
       propertyPath: m_Name
       value: castleWall-short (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
@@ -2807,6 +2919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castleWall-middle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
 --- !u!4 &1263671754 stripped
@@ -2845,6 +2961,7 @@ GameObject:
   - component: {fileID: 1284053621}
   - component: {fileID: 1284053623}
   - component: {fileID: 1284053619}
+  - component: {fileID: 1284053624}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2865,6 +2982,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  destination: {x: 0, y: 0, z: 0}
+  horizontal: 0
+  vertical: 0
+  whereWeGoing: 0
 --- !u!4 &1284053620
 Transform:
   m_ObjectHideFlags: 0
@@ -2922,6 +3043,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 1892903568}
+--- !u!114 &1284053624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284053618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 151691da88854c54cad511234dcddb85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smoke: {fileID: 19800018, guid: 9ca4cf61ec45f694ba748fd799e7607f, type: 3}
 --- !u!1 &1294329856 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
@@ -3080,6 +3214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castleWall-middle (10)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
 --- !u!1001 &1326218648
@@ -3152,6 +3290,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
       propertyPath: m_Name
       value: castleWall-middle (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
@@ -3276,6 +3418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castleWall-short (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
 --- !u!4 &1344068195 stripped
@@ -3345,6 +3491,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 863bc32fd25b7a245aeed002aba5b844, type: 3}
       propertyPath: m_Name
       value: castleTurret (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 863bc32fd25b7a245aeed002aba5b844, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 863bc32fd25b7a245aeed002aba5b844, type: 3}
@@ -3509,6 +3659,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castleWall-short (10)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
 --- !u!4 &1409696267 stripped
@@ -3671,6 +3825,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
       propertyPath: m_Name
       value: castleWall-middle
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
@@ -3868,6 +4026,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castleWall-short (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
 --- !u!1 &1438337641 stripped
@@ -3973,6 +4135,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
       propertyPath: m_Name
       value: castleWall-middle (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
@@ -4159,6 +4325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castleWall-long (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c15aea4a3030755499caa82746d6cb46, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c15aea4a3030755499caa82746d6cb46, type: 3}
 --- !u!4 &1565869572 stripped
@@ -4224,6 +4394,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
       propertyPath: m_Name
       value: castleWall-short (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
@@ -4312,6 +4486,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 863bc32fd25b7a245aeed002aba5b844, type: 3}
       propertyPath: m_Name
       value: castleTurret (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 863bc32fd25b7a245aeed002aba5b844, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 863bc32fd25b7a245aeed002aba5b844, type: 3}
@@ -4504,6 +4682,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castleWall-short (7)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3e3b7e3e65ab74b85d4b467c829b59, type: 3}
 --- !u!4 &1837006621 stripped
@@ -4581,6 +4763,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
       propertyPath: m_Name
       value: castleWall-middle (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
@@ -4776,6 +4962,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
       propertyPath: m_Name
       value: castleWall-middle (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
@@ -5120,6 +5310,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castleWall-middle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e57d1c60b513e664d9d93a5aa8fc5473, type: 3}
 --- !u!4 &2057007629 stripped
@@ -5185,6 +5379,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: c15aea4a3030755499caa82746d6cb46, type: 3}
       propertyPath: m_Name
       value: castleWall-long
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c15aea4a3030755499caa82746d6cb46, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c15aea4a3030755499caa82746d6cb46, type: 3}
